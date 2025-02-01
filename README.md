@@ -50,6 +50,7 @@ python manage.py runserver
 ## Running Tests
 ```bash
 export DJANGO_SETTINGS_MODULE=root.settings
+# set DJANGO_SETTINGS_MODULE=root.settings - use this command on windows
 pytest
 ```
 

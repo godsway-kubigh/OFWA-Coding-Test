@@ -6,8 +6,6 @@ from data_analysis import (
     load_data, 
     calculate_total_sites, 
     find_region_with_most_sites, 
-    list_cities_above_threshold,
-    calculate_average_sites_per_region
 )
 from upload_data import upload_galamsay_data
 
