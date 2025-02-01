@@ -16,8 +16,8 @@ This project analyzes illegal small-scale mining (Galamsay) sites across various
 ## Setup Instructions
 1. Clone the repository
 ```bash
-git clone git@github.com:brightmorkli37/galamsay_data_analysis.git
-cd galamsay_data_analysis
+git clone https://github.com/godsway-kubigh/OFWA-Coding-Test.git
+cd OFWA-Coding-Test
 ```
 
 2. Create and activate a virtual environment
