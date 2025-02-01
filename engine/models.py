@@ -3,7 +3,7 @@ from django.db import models
 
 class GalamsaySite(models.Model):
     """
-    Model representing Galamsay mining sites
+    Database for Galamsay mining sites
     """
     city = models.CharField(max_length=100)
     region = models.CharField(max_length=100)
@@ -19,7 +19,7 @@ class GalamsaySite(models.Model):
 
 class GalamsayAnalysis(models.Model):
     """
-    Model to store analysis results of galamsay sites data
+    Database for analysis results of galamsay sites data
     """
     total_sites = models.IntegerField()
     region_with_most_sites = models.CharField(max_length=100)
